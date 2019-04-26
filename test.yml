@@ -6,3 +6,6 @@ functions:
     lang: python3
     handler: ./test
     image: test:latest
+    labels:
+      canary: true
+      Git-Owner: Dan
