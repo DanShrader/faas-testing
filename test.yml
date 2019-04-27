@@ -9,3 +9,5 @@ functions:
     labels:
       canary: true
       Git-Owner: Dan
+    secrets:
+    - test
